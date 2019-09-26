@@ -10,6 +10,10 @@ header, footer {
     text-align: center;
 }
 
+header {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     font-family: "Carter One", sans-serif;
     font-size: 16px;
