@@ -31,7 +31,7 @@ main {
     font-size: 14px;
 }
 
-.section1,.section2,.section3 {
+section {
     border: 1px solid black;
     margin: 10px;
     border-radius: 10px;
@@ -53,13 +53,14 @@ h3 {
     color: #ffffff;
     font-size: 18px;
     border-radius: 10px;
+    padding: 10px;
 }
 
 h4 {
     font-size: 14px;
+    padding: 10px;
 }
 
-h3, h4,
 .webLink,
 .screenshot,
 .siteDetails {
