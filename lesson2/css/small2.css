@@ -23,12 +23,34 @@ body {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    font-size: 10px;
+    font-size: 12px;
+}
+
+.section1,.section2,.section3 {
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #fff7ee;
 }
 
 h1 {
     font-size: 35px;
     padding: 20px; 
+}
+h3 {
+    background-color: #008d67;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h3, h4,
+.webLink,
+.screenshot,
+.siteDetails {
+    padding: 10px;
 }
 
 img {

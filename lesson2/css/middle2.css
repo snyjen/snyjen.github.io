@@ -6,7 +6,7 @@
         font-size: 16px;
     }
     main{
-        grid-template-columns: 1 fr 1 fr;
+        grid-template-columns: 1fr 1fr;
         grid-column: span 2;
     }
     header, footer {
