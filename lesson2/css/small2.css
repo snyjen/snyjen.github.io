@@ -28,7 +28,7 @@ body {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .section1,.section2,.section3 {
@@ -51,7 +51,7 @@ h3 {
     background-color: #008d67;
     border-radius: 10px;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 10px;
 }
 
