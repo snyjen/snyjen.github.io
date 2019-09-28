@@ -39,9 +39,14 @@ main {
 }
 
 h1 {
-    font-size: 35px;
-    padding: 20px; 
+    font-size: 24px;
+    padding: 10px; 
 }
+
+h2 {
+    padding-bottom: 20px;
+}
+
 h3 {
     background-color: #008d67;
     border-radius: 10px;
