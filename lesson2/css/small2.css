@@ -35,16 +35,15 @@ section {
     border: 1px solid black;
     margin: 10px;
     border-radius: 10px;
-    background-color: #fff7ee;
+    background-color: #ffedd9;
 }
 
 h1 {
-    font-size: 24px;
-    padding: 10px; 
+    font-size: 24px; 
 }
 
 h2 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 h3 {
