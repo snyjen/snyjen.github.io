@@ -5,12 +5,7 @@
     body {
         font-size: 16px;
     }
-    main{
+    main {
         grid-template-columns: 1fr 1fr;
         grid-column: span 2;
     }
-    header, footer {
-        border-radius: 15px;
-    }
- 
-}
