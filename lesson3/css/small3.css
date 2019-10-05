@@ -125,6 +125,14 @@ img {
     margin: 1rem;
 }
 
+.wh {
+    color: #ffffff;
+}
+
+.bl {
+    color: #000000;
+}
+
 footer{
     font-family: 'Playfair Display', serif;
     font-size: 14px;
