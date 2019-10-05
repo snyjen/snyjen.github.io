@@ -1,16 +1,9 @@
 @media only screen and (min-width: 65em) {
-    h1 {
-        font-size: 48px;
+    header {
+        justify-content: flex-start;
     }
-    body {
-        font-size: 16px;
+    
+    img {
+        max-width: 200px;
     }
-    main{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column: span 1;
-    }
-    header, footer {
-        border-radius: 15px;
-    }
- 
 }
