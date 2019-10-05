@@ -7,12 +7,16 @@ header, footer {
 }
 
 header {
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    padding: 5px;
 }
 
 body {
-    font-family: "Carter One", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 1.5;
 }
@@ -22,10 +26,12 @@ nav {
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    line-height: 3em;
+    line-height: 1.5em;
+    overflow: hidden;
 }
 
-nav a {
+nav a:hover {
+    background-color: #fff282;
     color: #000000;
     text-decoration: none;
 }
@@ -33,25 +39,39 @@ nav a {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: 14px;
+
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
 }
 
 h1 {
-    font-size: 30px; 
+    font-size: 30px;
     padding-top: 15px;
     line-height: .75em;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 40px;
     padding-bottom: 15px;
     line-height: .75em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    line-height: .75em; 
+    text-align: center;
+}
+
+h4 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    line-height: .75em; 
 }
 
 img {
@@ -60,6 +80,7 @@ img {
 }
 
 footer{
+    font-family: 'Playfair Display', serif;
     font-size: 14px;
     padding: 5px;
 }
