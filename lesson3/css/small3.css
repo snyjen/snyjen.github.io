@@ -2,6 +2,8 @@ header, footer {
     background-color: #2a5aa8;
     color: #ffffff;
     text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 header {
@@ -67,5 +69,5 @@ footer a {
 }
 
 #update {
-    color: #ffd1d1;
+    color: #ffffff;
 }
