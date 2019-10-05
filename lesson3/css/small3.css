@@ -8,7 +8,7 @@ header, footer {
 
 header {
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     font-family: 'Playfair Display', serif;
@@ -53,12 +53,17 @@ nav a:hover {
     color: #ffffff;
 }
 
+.active {
+    background-color: #2a5aa8;
+    color: #ffffff;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 15px;
     line-height: .75em;
 }
@@ -71,7 +76,7 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 20px;
     padding-bottom: 15px;
     line-height: .75em; 
     text-align: center;
@@ -86,6 +91,38 @@ h4 {
 img {
     float: left;
     margin-left: 20px;
+}
+
+#headercolor {
+    background-color: #2a5aa8;
+    border: #273c49 1px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px gray;
+    margin: 1rem;
+}
+
+#navcolor {
+    background-color: #fff282;
+    border: #273c49 1px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px gray;
+    margin: 1rem;
+}
+
+#headcolor {
+    background-color: #ffffff;
+    border: #273c49 1px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px gray;
+    margin: 1rem;
+}
+
+#bodycolor {
+    background-color: #ffffff;
+    border: #273c49 1px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px gray;
+    margin: 1rem;
 }
 
 footer{
