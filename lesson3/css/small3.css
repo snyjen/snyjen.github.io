@@ -97,46 +97,6 @@ main picture img {
     height: auto;
 }
 
-#headercolor {
-    background-color: #2a5aa8;
-    border: #273c49 1px;
-    border-radius: 15px;
-    box-shadow: 3px 3px 3px gray;
-    margin: 1rem;
-}
-
-#navcolor {
-    background-color: #fff282;
-    border: #273c49 1px;
-    border-radius: 15px;
-    box-shadow: 3px 3px 3px gray;
-    margin: 1rem;
-}
-
-#headcolor {
-    background-color: #ffffff;
-    border: #273c49 1px;
-    border-radius: 15px;
-    box-shadow: 3px 3px 3px gray;
-    margin: 1rem;
-}
-
-#bodycolor {
-    background-color: #ffffff;
-    border: #273c49 1px;
-    border-radius: 15px;
-    box-shadow: 3px 3px 3px gray;
-    margin: 1rem;
-}
-
-.wh {
-    color: #ffffff;
-}
-
-.bl {
-    color: #000000;
-}
-
 footer{
     font-family: 'Playfair Display', serif;
     font-size: 14px;
