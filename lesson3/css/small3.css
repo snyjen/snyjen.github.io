@@ -92,6 +92,11 @@ main {
     padding: 30px;
 }
 
+main picture img {
+    width: 100%;
+    height: auto;
+}
+
 #headercolor {
     background-color: #2a5aa8;
     border: #273c49 1px;
