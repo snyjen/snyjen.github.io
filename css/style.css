@@ -37,6 +37,9 @@ footer{
     padding: 5px;
 }
 
+header, footer {
+    border-radius: 15px;
+
 footer a {
     color: #ffffff;
 }
