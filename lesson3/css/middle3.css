@@ -1,16 +1,13 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 32.53m) {
     h1 {
         font-size: 40px;
     }
-    
+
     body {
         font-size: 16px;
     }
-    
+
     nav ul {
         display: flex;
     }
-
-    nav ul li {
-        flex: 1 1 100%;
-    }
+}
