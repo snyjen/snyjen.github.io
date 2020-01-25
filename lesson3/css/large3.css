@@ -4,8 +4,8 @@
         display: flex;
         justify-content: space-around;
     }
-
-    main picture img {
+    
+    main picture img { 
         width: 25%;
         height: auto;
     }
