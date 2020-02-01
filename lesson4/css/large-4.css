@@ -2,11 +2,21 @@
 
     nav ul {
         display:flex;
-        justify-content: space-around;
     }
 
-    main picture img {
-        width: 25%;
-        height: auto;
+    nav button {
+        display: none;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+    }
+
+    nav ul.hide {
+        display: flex;
     }
 }

@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <title>Preston Idaho | Weather Digest</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans%7cPlayfair+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="css/small-4.css">
         <link rel="stylesheet" href="css/middle-4.css">
         <link rel="stylesheet" href="css/large-4.css">
     </head>
-
-    
     <body>
         <header>
             <div>
@@ -23,7 +22,8 @@
             </div>
         </header>
          <nav>
-            <ul class="navigation">
+             <button onclick="toggleMenu()"&#9776; Menu></button>
+            <ul class="navigation" class="hide">
                 <li><a class="ham" href="#">&#9776; Menu</a></li>
                 <li><a href="#">Home</a> </li>
                 <li><a href="#" class="active">Preston</a> </li>
@@ -43,10 +43,10 @@
             <div class="content">Contact</div>
         </main>
         <footer>
-            <p>&copy;2020 | Weather Digest | BYU-Idaho Online | Jennifer Snyder</p>
-            <div><span id="currentDate"></span></div>
+            <p>&copy;2020 | Weather Digest | BYU-Idaho Online | Jennifer Snyder <br>
+                <span id="currentDate"></span>
+            </p>
         </footer>
-        <script src="js/date.js"></script>
-        <script src="js/toggle.js"></script>
+        <script src="js/scripts.js"></script>
         </body>
 </html>

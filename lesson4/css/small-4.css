@@ -36,6 +36,14 @@ nav a:hover {
     color: #ffffff;
 }
 
+nav button {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-size: 1rem;
+    margin: .5rem;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -53,12 +61,39 @@ nav li a {
     padding: .95rem;
 }
 
+nav ul.hide {
+    display:none;
+}
+
 .active {
     background-color: #2a5aa8;
     color: #ffffff;
 }
 
-h1, h2, h3, h4 {
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: #eeeddd;
+    border: 1px dashed #000000;
+    color: #373737;
+    display: block;
+    font-style: italic;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+.motto {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+h1, h2, {
     font-family: 'Playfair Display', serif;
 }
 
@@ -75,31 +110,13 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    font-size: 25px;
-    padding-bottom: 15px;
-    line-height: .75em; 
-    text-align: center;
-}
-
-h4 {
-    font-size: 20px;
-    padding-bottom: 15px;
-    line-height: .75em; 
-}
-
 main {
     padding: 30px;
 }
 
-main picture img {
-    width: 100%;
-    height: auto;
-}
-
 footer{
-    font-family: 'Playfair Display', serif;
-    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     padding: 5px;
 }
 

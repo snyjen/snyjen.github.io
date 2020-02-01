@@ -10,4 +10,20 @@
     nav ul {
         display: flex;
     }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
 }
