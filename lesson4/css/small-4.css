@@ -22,13 +22,9 @@ body {
 }
 
 nav {
+    clear: left;
     background-color: #ffdc73;
     text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 1.5em;
-    overflow: hidden;
-    box-shadow: 0 2px 15px gray;
 }
 
 nav a:hover {
@@ -62,7 +58,7 @@ nav li a {
 }
 
 nav ul.hide {
-    display:none;
+    display: none;
 }
 
 .active {
@@ -84,6 +80,11 @@ nav ul.hide {
     font-style: italic;
     margin: 10px auto;
     padding: 15px;
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
 }
 
 .motto {
