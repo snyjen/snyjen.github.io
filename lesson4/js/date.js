@@ -1,4 +1,7 @@
-document.getElementById('lastupdated').textContent= document.lastModified;
-
-const options= {year:'numeric'};
-document.getElementById('currentyear').textContent= new Date().toLocaleDateString('en-US', options);
+var monthArray = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "Novemeber", "December"];
+var dayArray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var today = new Date();
+var dayofWeek = dayArray[today.getDay()];
+var monthName = monthArray[today.getMonth()];
+var currentDate = dayofWeek + "," + today.getDate() + "" + monthName + "" + (today.getYear() +1900);
+document.getElementById("currentDate").innerHTML = currentDate;
