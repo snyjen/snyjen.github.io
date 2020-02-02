@@ -90,8 +90,9 @@ nav ul.hide {
 .motto {
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
+    font-style: italic;
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 h1, h2 {
