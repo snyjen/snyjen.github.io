@@ -186,7 +186,7 @@ footer a {
     text-align: center;
 }
 
-.flex div: last-child {
+.flex div:last-child {
     border-right: 1px solid #333;
 }
 
