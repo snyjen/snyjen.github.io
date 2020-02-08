@@ -98,7 +98,7 @@ nav ul.hide {
 .herodiv {
     margin: 10px auto;
     position: relative;
-    width: 760px;
+    width: 100%;
     height: 300px;
 }
 
@@ -114,7 +114,7 @@ nav ul.hide {
     position: absolute;
     top: 50px;
     left: 50px;
-    background: radial-gradient(#eeeddd, #2a5aa8);
+    background-color: #b6b5be;
     border: 1px solid #000000;
     opacity: .8;
     padding: .5rem;
@@ -203,4 +203,14 @@ footer a {
 .data {
     display: black;
     padding: 0 5px 5px;
+}
+
+.articletext {
+    flex-basis: 70%;
+    text-align: justify;
+    padding: 20px;
+}
+
+.articlehead {
+    font-weight: bold;
 }
