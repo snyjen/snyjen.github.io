@@ -186,6 +186,10 @@ footer a {
     text-align: center;
 }
 
+.flex div: last-child {
+    border-right: 1px solid #333;
+}
+
 .label {
     display: block;
     padding: 5px;
