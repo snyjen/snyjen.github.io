@@ -23,19 +23,3 @@
     .forecast, .footermap {
         display: block;
     }
-
-    .articlecont {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .articletext {
-        flex-basis: 70%;
-        text-align: justify;
-        padding: 0px;
-    }
-
-    .articlepic {
-        flex-basis: 30%;
-    }
-}
