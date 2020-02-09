@@ -150,6 +150,19 @@ main {
     margin: auto;
 }
 
+article {
+    background-color: #eeeddd;
+    display: block;
+    padding: 20px;
+    text-align: left;
+    margin: 1.5em 0 0 0;
+}
+
+article img {
+    box-shadow: 0 0 30px #777;
+    height: auto;
+}
+
 footer{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -209,16 +222,6 @@ footer a {
 .data {
     display: black;
     padding: 0 5px 5px;
-}
-
-.articletext {
-    flex-basis: 70%;
-    text-align: justify;
-    padding-right: 10px;
-}
-
-.articlehead {
-    font-weight: bold;
 }
 
 .contactfooter {
