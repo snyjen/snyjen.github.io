@@ -23,3 +23,13 @@
     .forecast, .footermap {
         display: block;
     }
+
+    article img {
+        float: right;
+        margin: 1em;
+    }
+    
+    .footermap {
+        display: block;
+        float: left;
+    }
