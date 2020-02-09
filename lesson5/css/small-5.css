@@ -226,4 +226,5 @@ footer a {
 .data {
     display: block;
     padding: 5px 5px 5px;
+    font-weight: bold;
 }
