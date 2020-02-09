@@ -29,8 +29,18 @@
         margin: 1em;
     }
 
-    .footermap {
+    .map {
         float: left;
         display: block;
         border: 1px solid #000000;
+    }
+
+    .footermap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contactus {
+    
+
     }
