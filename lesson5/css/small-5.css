@@ -102,23 +102,20 @@ nav ul.hide {
     height: 300px;
 }
 
-.hero {
-    margin: 10px auto;
-    border: 1px solid #333;
-    width: 100%;
-    height: 300px;
+.hero img{
+ max-width: 100%;
+ display: block;
 }
 
 
 .weathersummary {
     position: absolute;
-    top: 50px;
+    top: 10px;
     left: 50px;
     background-color: #b6b5be;
-    border: 1px solid #000000;
     opacity: .8;
     padding: .5rem;
-    box-shadow: 0 0 20px #777;
+    box-shadow: 0 0 30px #777;
 
 }
 
@@ -133,14 +130,14 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
     padding-bottom: 15px;
     line-height: .75em;
     text-align: center;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 20px;
     padding-bottom: 15px;
     line-height: .75em;
     text-align: center;
@@ -168,6 +165,10 @@ footer a {
 
 #update {
     color: #ffffff;
+}
+
+.forecast, .footermap {
+    display: none;
 }
 
 .flex {
@@ -213,9 +214,24 @@ footer a {
 .articletext {
     flex-basis: 70%;
     text-align: justify;
-    padding: 20px;
+    padding-right: 10px;
 }
 
 .articlehead {
     font-weight: bold;
+}
+
+.contactfooter {
+    flex-basis: 100%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.socials {
+    list-style: none;
+}
+
+.socials li {
+    display: inline-block;
+    padding: 5px;
 }

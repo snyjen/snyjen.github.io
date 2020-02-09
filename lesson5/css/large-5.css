@@ -20,6 +20,10 @@
         display: flex;
     }
 
+    .forecast, .footermap {
+        display: block;
+    }
+
     .articlecont {
         display: flex;
         flex-direction: row;
