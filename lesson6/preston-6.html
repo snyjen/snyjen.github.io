@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Weather Digest-Preston Idaho">
         <title>Preston Idaho | Weather Digest</title>
 
         <link rel="shortcut icon" href="../favicon.ico">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans%7cPlayfair+Display&display=swap" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans%7cPlayfair+Display&display=swap" rel="stylesheet">-->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small-6.css">
         <link rel="stylesheet" href="css/medium-6.css">
@@ -48,12 +49,17 @@
             </h2>
             <div class="herodiv">
             <div class="hero">
-                <img src="images/prestontown.jpg" alt="preston">
+                <picture>
+                    <source media="(min-width: 65em)" srcset="images/large.jpg">
+                        <source media="(min-width: 37.5em)" srcset="images/medium.jpg">
+                            <img src="images/small.jpg" alt="picture">
+                </picture>
+                
             </div>
             <section class="weathersummary">
                 <h3>Weather Summary</h3>
                 <p>Currently: Sunny</p>
-                <p>High: 75 &#8457;</p>
+                <p>High: 48 &#8457;</p>
                 <p>Wind Chill: &#8457;</p>
                 <p>Humidity: 40%</p>
                 <p>Wind Speed: 5mph</p>
@@ -67,27 +73,27 @@
                 <div class="col">
                     <span class="label">Fri</span>
                     <img src="images/sunnyicon.png" alt="sunny">
-                    <span class="data">70&#8457;</span>
+                    <span class="data">50&#8457;</span>
                 </div>
                 <div class="col">
                     <span class="label">Sat</span>
                     <img src="images/sunnyicon.png" alt="sunny">
-                    <span class="data">70&#8457;</span>
+                    <span class="data">50&#8457;</span>
                 </div>
                 <div class="col">
                     <span class="label">Sun</span>
                     <img src="images/sunnyicon.png" alt="sunny">
-                    <span class="data">70&#8457;</span>
+                    <span class="data">50&#8457;</span>
                 </div>
                 <div class="col">
                     <span class="label">Mon</span>
                     <img src="images/sunnyicon.png" alt="sunny">
-                    <span class="data">70&#8457;</span>
+                    <span class="data">50&#8457;</span>
                 </div>
                 <div class="col">
                     <span class="label">Tues</span>
                     <img src="images/sunnyicon.png" alt="sunny">
-                    <span class="data">70&#8457;</span>
+                    <span class="data">50&#8457;</span>
                 </div>
             </div>
             </div>
@@ -123,5 +129,7 @@
         </footer>        
         <script src="js/friday.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfront/1.6.26/webfront.js"></script>
+        <script src="js/webfontload.js"></script>
         </body>
 </html>

@@ -146,7 +146,7 @@ h3 {
 main {
     padding: 30px;
     max-width: 1200px;
-    width: 100%;
+    width: auto;
     margin: auto;
 }
 
@@ -171,7 +171,7 @@ footer{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     padding: 5px;
-    width: 100%;
+    width: auto;
     max-width: 1200px;
     margin: auto;
 }
