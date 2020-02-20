@@ -19,24 +19,3 @@
     nav ul.hide {
         display: flex;
     }
-
-    .forecast, .footermap {
-        display: block;
-    }
-
-    article img {
-        float: right;
-        margin: 1em;
-    }
-
-    .map {
-        float: left;
-        display: block;
-        border: 1px solid #000000;
-        margin: 1em;
-    }
-
-    .footermap {
-        display: flex;
-        flex-wrap: wrap;
-    }
