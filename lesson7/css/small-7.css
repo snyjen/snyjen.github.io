@@ -124,7 +124,10 @@ main {
 .container {
     margin: 1rem auto;
     display: grid;
+    justify-content: center;
+    align-content: center;
     grid-template-columns: 1fr;
+    grid-gap: 2px;
 }
 
 img[data-src] {
@@ -134,18 +137,17 @@ img[data-src] {
 figure img {
     width: 350px;
     height: auto;
-    margin: .5rem;
     filter: blur(0em);
     transition: filter 0.5s;
+}
 
+figure {
+    border: 1px solid #333;
 }
 
 figcaption {
-    font-size: 14pt;
-}
-
-.norm:hover {
-    box-shadow: 0 0 25px #333;
+    font-weight: bold;
+    padding: 4px;
 }
 
 footer{
