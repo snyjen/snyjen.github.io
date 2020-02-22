@@ -124,14 +124,19 @@ main {
 .container {
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 1200px;
+    grid-template-columns: 1fr;
+}
+
+img[data-src] {
+    filter: blur(0.1em)
 }
 
 figure img {
     width: 350px;
     height: auto;
     margin: .5rem;
+    filter: blur(0em);
+    transition: filter 0.5s;
 
 }
 
