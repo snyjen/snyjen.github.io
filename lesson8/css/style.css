@@ -38,3 +38,7 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #e7ffed;
 }
+
+tbody :nth-child(6) :nth-child(1) {
+    font-style: italic;
+}
