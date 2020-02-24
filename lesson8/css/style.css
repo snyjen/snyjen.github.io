@@ -1,8 +1,12 @@
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid #b8b9b9;
     border-collapse: collapse;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
+}
+
+table {
+    box-shadow: 10px 10px 15px #628ca6;
 }
 
 th, td {
