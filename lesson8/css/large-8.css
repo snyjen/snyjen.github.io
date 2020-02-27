@@ -1,0 +1,42 @@
+@media only screen and (min-width: 65em) {
+
+    nav ul {
+        display:flex;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    .forecast, .footermap {
+        display: block;
+    }
+
+    article img {
+        float: right;
+        margin: 1em;
+    }
+
+    .map {
+        float: left;
+        display: block;
+        border: 1px solid #000000;
+        margin: 1em;
+    }
+
+    .footermap {
+        display: flex;
+        flex-wrap: wrap;
+    }
