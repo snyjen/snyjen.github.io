@@ -50,9 +50,9 @@
                     <form method="get" action="thanks.html">
                         <fieldset>
                             <legend>Contact Information</legend>
-                           <label class="top"> Name* <input type="text" name="fname" placeholder="at least 5 characters" required></label>
-                           <label class="top"> Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                           <label class="top"> Zipcode* <input type="number" name="zip" required></label>
+                           <label class="top"> Name<span class="required">*</span> <input type="text" name="fname" placeholder="at least 5 characters" required></label>
+                           <label class="top"> Phone<span class="required">*</span> <input type="tel" name="phone" placeholder="1235551234" required></label>
+                           <label class="top"> Zipcode<span class="required">*</span> <input type="number" name="zip" required></label>
                            <label class="top"> Email <input type="email" name="email" placeholder="example@email.com"></label>
                         </fieldset>
                         
@@ -73,16 +73,29 @@
                              
                             
                             
-                            <label class="top" for="rating">Storm Severity</label>
-                                <input type="range" id="rating" value="5" min="1" max="10" step="1"
-                                oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                                <span id="ratingvalue">5</span>
+                           <label class="top" for="rating">Storm Severity</label>
+                               <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                               <span id="ratingvalue">5</span>
+                            
+                           <datalist id="tickmarks">
+                            <option value="0">
+                                <option value="1">
+                                <option value="2">
+                                <option value="3">
+                                <option value="4">
+                                <option value="5">
+                                <option value="6">
+                                <option value="7">
+                                <option value="8">
+                                <option value="9">
+                                <option value="10">
+                           </datalist>
                             
                     
                              
                                
                                 <label class="top">Region<select name="region">
-                                    <option selected disabled>Select Region</option>
+                                    <option selected disabled>Select Region... &#9662;</option>
                                     <option value="fishhaven">Fish Haven</option>
                                     <option value="preston">Preston</option>
                                     <option value="sodasprings">Soda Springs</option>

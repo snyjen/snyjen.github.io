@@ -162,6 +162,19 @@ form label.sbs {
     font-size: 1rem;
 }
 
+.required {
+    color: red;
+}
+
+input[type="range"] {
+    width:80%;
+}
+
+input[type="submit"]:hover {
+    background-color: #fee9ab;
+    color: black;
+}
+
 form input.submitBtn {
     border: none;
     background-color: #ffdc73;
