@@ -59,9 +59,9 @@
                         <fieldset>
                              <legend>Storm Report</legend>
                              
-                            <label class="sbs">Storm Date <input type="date" name="stormDate"></label>
+                            <label class="top">Storm Date <input type="date" name="stormDate"></label>
                              
-                            <label class="sbs">Storm Type <input list="storm" name="stormtype"></label>
+                            <label class="top">Storm Type <input list="storm" name="stormtype"></label>
                                 <datalist id="storm">
                                     <option value="Flash Flood">
                                     <option value="Hail">
@@ -73,7 +73,7 @@
                              
                             
                             
-                            <label class="sbs" for="rating">Storm Severity</label>
+                            <label class="top" for="rating">Storm Severity</label>
                                 <input type="range" id="rating" value="5" min="1" max="10" step="1"
                                 oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                                 <span id="ratingvalue">5</span>
@@ -81,7 +81,7 @@
                     
                              
                                
-                                <label class="sbs">Region<select name="region">
+                                <label class="top">Region<select name="region">
                                     <option selected disabled>Select Region</option>
                                     <option value="fishhaven">Fish Haven</option>
                                     <option value="preston">Preston</option>
@@ -91,7 +91,7 @@
                                 
                      
                              
-                            <label class="sbs">User in Danger</label>
+                            <label class="top">User in Danger</label>
                                 <label class="sbs"><input type="radio" id="yes" name="danger" value="yes" checked>Yes</label>
                                 <label class="sbs"><input type="radio" id="maybe" name="danger" value="maybe">Maybe</label>
                                 <label class="sbs"><input type="radio" id="no" name="danger" value="no">No</label>

@@ -158,9 +158,8 @@ form label.top input, form label.top select {
 form label.sbs {
     display: block;
     padding: .75rem 0;
-    color:#2a5aa8;
+    color: black;
     font-size: 1rem;
-    
 }
 
 form input.submitBtn {
@@ -173,15 +172,6 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
 }
-
-form label.top input:required {
-    border-left: red solid 6px;
-}
-
-form label.top input:required:valid {
-    border-left: green solid 6px;
-}
-
 
 footer{
     font-family: 'Open Sans', sans-serif;
