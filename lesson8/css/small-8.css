@@ -163,7 +163,7 @@ form label.sbs {
 }
 
 .required {
-    color:#ab0000;
+    color:#e10000;
 }
 
 input[type="range"] {
