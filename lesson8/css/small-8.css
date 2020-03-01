@@ -162,6 +162,11 @@ form label.sbs {
     font-size: 1rem;
 }
 
+textarea {
+    width: 90%;
+    resize: vertical;
+}
+
 .area {
     width: 80%;
     padding: 0px;
