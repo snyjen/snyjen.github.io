@@ -162,6 +162,11 @@ form label.sbs {
     font-size: 1rem;
 }
 
+.area {
+    width: 80%;
+    padding: 0px;
+}
+
 .required {
     color:#e10000;
 }
