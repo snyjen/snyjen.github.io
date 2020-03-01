@@ -120,6 +120,7 @@ main {
     width: auto;
     margin: auto;
 }
+
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #2a5aa8;
@@ -135,7 +136,7 @@ form legend {
     padding: 0 .5rem;
 }
 
-form label.top, form div {
+form label.top {
     display: block;
     padding-top: 1rem;
     color: #2a5aa8;
@@ -143,14 +144,13 @@ form label.top, form div {
 }
 
 form label.top input, form label.top select {
-    -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: solid 1px #999;
     border-radius: 4px;
     padding: .50rem;
     color: #555;
-    width: 100%;
+    width: 80%;
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
 }

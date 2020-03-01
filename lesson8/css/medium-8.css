@@ -26,4 +26,8 @@
     nav ul.hide {
         display: flex;
     }
+
+    input[type="range"] {
+        width: 40%;
+    }
 }
