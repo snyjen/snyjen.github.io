@@ -1,0 +1,32 @@
+.cards {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #480798;
+}
+
+.cards p {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.cards h2 {
+    text-align: center;
+}
+
+.cards section {
+    border: 2px solid #480798;
+    background-color: #dec3ff;
+    margin: auto;
+}
+
+.cards img {
+    display: block;
+    height: 300px;
+    box-shadow: 0 0 10px #333;
+}
