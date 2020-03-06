@@ -40,4 +40,12 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .cards section {
+        width: 100%;
+    }
 }
