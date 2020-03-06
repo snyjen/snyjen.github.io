@@ -17,24 +17,24 @@ fetch(requestURL)
         let name = document.createElement('h3');
         let motto = document.createElement('h4');
         let yearFounded = document.createElement('p');
-        let population = document.createElement('p');
-        let rainfall = document.createElement('p');
+        let currentPopulation = document.createElement('p');
+        let averageRainfall = document.createElement('p');
         let photo = document.createElement('img');
 
         name.textContent = towns[i].name;
         card.appendChild(name);
 
         motto.textContent = towns[i].motto;
-        card.appendChild(nmotto);
+        card.appendChild(motto);
 
         yearFounded.textContent = "Year Founded:" + towns[i].yearFounded;
         card.appendChild(yearFounded);
 
-        population.textContent = "Population:" + towns[i].currentPopulation;
-        card.appendChild(population);
+        currentPopulation.textContent = "Population:" + towns[i].currentPopulation;
+        card.appendChild(currentPopulation);
 
-        rainfall.textContent = "Annual Rainfall:" + towns[i].averageRainfall;
-        card.appendChild(rainfall);
+        averageRainfall.textContent = "Annual Rainfall:" + towns[i].averageRainfall;
+        card.appendChild(averageRainfall);
 
         
         image.setAttribute('src', "images/" + towns[i].photo);

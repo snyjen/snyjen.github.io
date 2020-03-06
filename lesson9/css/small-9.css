@@ -150,12 +150,6 @@ main {
     margin: auto;
 }
 
-.cards {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 10px;
-}
-
 article {
     background-color: #eeeddd;
     display: block;
@@ -235,3 +229,25 @@ footer a {
     font-weight: bold;
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 15px;
+}
+
+.cards section {
+    border: 2px solid blue;
+    background-color: #000000;
+    width: 90%;
+    margin: auto;
+}
+.cards img {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.cards p {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
