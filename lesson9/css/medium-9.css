@@ -34,11 +34,25 @@
         max-width: 400px;
     }
 
-    .cards{
-        grid-template-columns: repeat(2, 1fr);
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cards img {
+        width: 300px;
+        height: auto;
     }
 
     .cards section {
-        width: 100%;
+        margin: 1em;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
     }
+
+    .cards section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
 }

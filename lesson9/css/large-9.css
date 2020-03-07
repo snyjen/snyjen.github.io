@@ -45,10 +45,14 @@
     }
 
     .cards {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
     .cards section {
         width: 100%;
+        display: grid;
+        justify-items: center;
     }
+
 }
