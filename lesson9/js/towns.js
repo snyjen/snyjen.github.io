@@ -11,6 +11,7 @@ fetch(requestURL)
 
     for (let i = 0; i < towns.length; i++ ) {
         
+      if (towns[i].name=="Fish Haven" || towns[i].name=="Preston" || towns[i].name=="Soda Springs") {
 
         let card = document.createElement('section');
         let name = document.createElement('h3');
@@ -43,6 +44,6 @@ fetch(requestURL)
        
         document.querySelector('div.cards').appendChild(card);
 
-        
+      } 
     }
 });
