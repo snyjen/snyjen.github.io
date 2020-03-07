@@ -43,7 +43,10 @@
         margin: 10px;
         display: flex;
         flex-direction: row;
-        text-align: left;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: space-evenly;
     }
 
     .cards section:nth-child(odd) {
