@@ -184,7 +184,7 @@ footer a {
 
 .cards section {
     border: 2px solid #2a5aa8;
-    background-color: #ffdc73;
+    background-color: #fff2ce;
     width: 90%;
     margin: auto;
     border-radius: 10px;
@@ -196,7 +196,20 @@ footer a {
     box-shadow: 0 0 15px #333;
 }
 
+.cards h3 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 24pt;
+}
+
+.cards h4 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    font-style: italic;
+}
+
 .cards p {
     text-align: center;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
