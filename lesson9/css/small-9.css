@@ -126,6 +126,24 @@ main {
     margin: auto;
 }
 
+article {
+    background-color: #eeeddd;
+    display: block;
+    padding: 20px;
+    text-align: left;
+    margin: 1.5em 0 0 0;
+}
+
+article img {
+    box-shadow: 0 0 30px #777;
+    height: auto;
+    width: 100%;
+}
+
+article p {
+    padding: 0 1em 0 0;
+}
+
 footer{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -184,7 +202,7 @@ footer a {
 
 .cards section {
     border: 2px solid #2a5aa8;
-    background-color: #fff2ce;
+    background-color: #c0c7d9;
     width: 90%;
     margin: auto;
     border-radius: 10px;
