@@ -39,13 +39,8 @@
         flex-wrap: wrap;
     }
 
-    .cards img {
-        width: 300px;
-        height: auto;
-    }
-
     .cards section {
-        margin: 1em;
+        margin: 10px;
         display: flex;
         flex-direction: row;
         text-align: left;
