@@ -31,8 +31,8 @@ fetch(requestURL)
         averageRainfall.textContent = "Annual Rainfall:" + towns[i].averageRainfall;
       
         let alt = towns[i].photo;
-        image.setAttribute('src', "images/" + towns[i].photo);
-        image.setAttribute('alt', alt);
+        photo.setAttribute('src', "images/" + towns[i].photo);
+        photo.setAttribute('alt', alt);
         
         card.appendChild(name);
         card.appendChild(motto);
