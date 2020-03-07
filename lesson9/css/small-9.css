@@ -175,6 +175,7 @@ footer a {
     font-weight: bold;
 }
 
+
 .cards {
     display: grid;
     grid-template-columns: auto;
@@ -182,15 +183,17 @@ footer a {
 }
 
 .cards section {
-    border: 2px solid blue;
-    background-color: green;
+    border: 2px solid #2a5aa8;
+    background-color: #ffdc73;
     width: 90%;
     margin: auto;
+    border-radius: 10px;
 }
 .cards img {
     display: block;
     width: 90%;
     margin: 20px auto;
+    box-shadow: 0 0 15px #333;
 }
 
 .cards p {
