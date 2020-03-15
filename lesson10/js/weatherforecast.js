@@ -1,6 +1,6 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=3e0425f4b4feb5fd17b29e3a168f2265';
+const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=3e0425f4b4feb5fd17b29e3a168f2265';
 
-fetch(apiURL)
+fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
     let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
