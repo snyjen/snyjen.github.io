@@ -1,0 +1,35 @@
+@media only screen and (min-width: 45em) {
+    h1 {
+        font-size: 40px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    .container {
+        margin: 1rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

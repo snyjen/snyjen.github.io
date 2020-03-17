@@ -1,0 +1,174 @@
+header, footer {
+    background-color: #2a5aa8;
+    color: #ffffff;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+nav {
+    clear: left;
+    background-color: #ffdc73;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #2a5aa8;
+    color: #ffffff;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: .95rem;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+.active {
+    background-color: #2a5aa8;
+    color: #ffffff;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
+}
+
+.motto {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 15px;
+    line-height: .75em;
+}
+
+h2 {
+    font-size: 35px;
+    padding-bottom: 15px;
+    line-height: .75em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    padding-bottom: 15px;
+    line-height: .75em;
+    text-align: center;
+}
+
+main {
+    padding: 30px;
+    max-width: 1200px;
+    width: auto;
+    margin: auto;
+}
+
+.container {
+    margin: 1rem auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+}
+
+img[data-src] {
+    filter: blur(0.1em)
+}
+
+figure img {
+    width: 350px;
+    height: auto;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+figure {
+    border: 1px solid #333;
+}
+
+figcaption {
+    font-size: 14pt;
+    padding: 4px;
+}
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    width: auto;
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+#update {
+    color: #ffffff;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Weather Digest-Preston Idaho">
+        <title>Gallery | Weather Digest</title>
+
+        <link rel="shortcut icon" href="../favicon.ico">
+        <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans%7cPlayfair+Display&display=swap" rel="stylesheet">-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/gallery-s.css">
+        <link rel="stylesheet" href="css/gallery-m.css">
+        <link rel="stylesheet" href="css/gallery-l.css">
+
+    </head>
+    <body>
+
+        <header>
+            <div>
+                <img class="logo" src="images/weathericon.png" alt="Sun and Clouds">
+            </div>
+            <section class="headings"> 
+            <h1>
+                Weather Digest
+                </h1>
+            <div class="motto">
+                Weather Made Easy
+            </div>
+        </section>  
+        </header>
+         <nav>
+             <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="navigation" class="hide">
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="preston.html">Preston</a> </li>
+                <li><a href="#">Soda Springs</a> </li>
+                <li><a href="#">Fish Haven</a> </li>
+                <li><a href="stormcenter.html">Storm Center</a> </li>
+                <li><a href="#" class="active">Gallery</a> </li>
+            </ul>
+        </nav>
+        <main>
+          
+            <h2>Weather Gallery</h2>
+
+            <div class="container">
+                <figure class="norm">
+                    <img src="images/imgplace.jpg" data-src="images/clouds.jpg" alt="clouds">
+                    <figcaption>Clouds in the sky</figcaption>
+                </figure>
+                <figure class="norm">
+                    <img src="images/imgplace.jpg" data-src="images/rain.jpg" alt="rain">
+                    <figcaption>Rain on plants</figcaption>
+                </figure>
+                <figure class="norm">
+                    <img src="images/imgplace.jpg" data-src="images/rainbow.jpg" alt="rainbow">
+                    <figcaption>Rainbow over field</figcaption>
+                </figure>
+                <figure class="norm">
+                    <img src="images/imgplace.jpg" data-src="images/snow.jpg" alt="snow">
+                    <figcaption>Snow covered trees</figcaption>
+                </figure>
+                <figure class="norm">
+                    <img src="images/imgplace.jpg" data-src="images/storm.jpg" alt="storm">
+                    <figcaption>Storm Weather</figcaption>
+                </figure>
+                <figure class="norm">
+                    <img src="images/imgplace.jpg" data-src="images/fog.jpg" alt="fog">
+                    <figcaption>Fog</figcaption>
+                </figure>
+                <figure class="norm">
+                    <img src="images/imgplace.jpg" data-src="images/frozen.jpg" alt="ice">
+                    <figcaption>Fozen lake</figcaption>
+                </figure>
+                <figure class="norm">
+                    <img src="images/imgplace.jpg" data-src="images/lightning.jpg" alt="lightning">
+                    <figcaption>Lightning over mountains</figcaption>
+                </figure>
+                <figure class="norm">
+                    <img src="images/imgplace.jpg" data-src="images/sun.jpg" alt="sun">
+                    <figcaption>Sun in the sky</figcaption>
+                </figure>
+            </div>
+        </main>
+
+        <footer> 
+            <p>&copy;2020 | Weather Digest | BYU-Idaho Online | Jennifer Snyder <br>
+                <span id="currentDate"></span>
+            </p>
+        </footer>        
+        <script src="js/scripts.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfront/1.6.26/webfront.js"></script>
+        <script src="js/webfontload.js"></script>
+        <script src="js/imagehandling.js"></script>
+        </body>
+</html>
