@@ -150,6 +150,13 @@ main {
     margin: auto;
 }
 
+.events {
+    background-color: #eeeddd;
+    display: block;
+    padding: 10px;
+    
+}
+
 article {
     background-color: #eeeddd;
     display: block;

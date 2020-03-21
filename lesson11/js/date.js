@@ -3,5 +3,5 @@ var dayArray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"
 var today = new Date();
 var dayofWeek = dayArray[today.getDay()];
 var monthName = monthArray[today.getMonth()];
-var currentDate = dayofWeek + "," + today.getDate() + "" + monthName + "" + (today.getYear() +1900);
+var currentDate = dayofWeek + "," + today.getDate() + '' + monthName + '' + (today.getYear() +1900);
 document.getElementById("currentDate").innerHTML = currentDate;
