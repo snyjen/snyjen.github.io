@@ -235,3 +235,9 @@ footer a {
     padding: 5px 5px 5px;
     font-weight: bold;
 }
+
+article img {
+    box-shadow: 0 0 30px #777;
+    height: auto;
+    width: 100%;
+}

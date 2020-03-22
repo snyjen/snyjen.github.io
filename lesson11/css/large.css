@@ -28,6 +28,8 @@
     article img {
         float: right;
         margin: 1em;
+        height: auto;
+        max-width: 500px;
     }
 
     .map {
