@@ -1,0 +1,82 @@
+header, footer {
+    background-color: #074135;
+    color: #ffffff;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    clear: left;
+    background-color: #074135;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav a:hover {
+    color: #ffffff;
+    font-size: 16pt;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 1rem;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+.logo {
+    float: left;
+}
+
+.bg-img {
+    background-image: <img src: "images/riverheader.jpg">;
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #074135;
+    opacity: 0.8;
+}
+
+body {
+   background-color:#cfd1d0;
+}
