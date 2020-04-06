@@ -12,7 +12,22 @@ header {
 
 footer {
     font-family: 'Open Sans', sans-serif;
+    padding: 3px;
 }
+
+body {
+    background-color:#cfd1d0;
+ }
+
+ main {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    text-align: center;
+ }
+
+ h2 {
+     color: #302626;
+ }
 
 nav {
     clear: left;
@@ -22,14 +37,14 @@ nav {
 }
 
 nav a:hover {
-    color: #ffffff;
-    font-size: 16pt;
+    background-color: #cfd1d0;
+    color: #000000;
 }
 
 nav button {
     background-color: transparent;
     border: none;
-    color: #000000;
+    color: #ffffff;
     font-size: 1rem;
     margin: .5rem;
 }
@@ -47,19 +62,33 @@ nav li a {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    padding: 1rem;
+    font-weight: bold;
+    padding: .95rem;
 }
 
 nav ul.hide {
     display: none;
 }
 
-.logo {
-    float: left;
+.active {
+    background-color: #cfd1d0;
+    color: #000000;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.logo {
+   opacity: 0.8;
+}
+
+/*Navbar on image code source: w3schools.com*/
 .bg-img {
-    background-image: url("https://snyjen.github.io/Term/images/riverheader.jpg");
+    background-image: url("https://snyjen.github.io/final/images/riverheader.jpg");
     min-height: 380px;
     background-position: center;
     background-repeat: no-repeat;
@@ -77,6 +106,18 @@ nav ul.hide {
     opacity: 0.8;
 }
 
-body {
-   background-color:#cfd1d0;
+.weathersummary {
+    display: block;
+    width: 200px;
+    height: 225px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    padding: .5rem;
+    box-shadow: 0 0 30px #777;
 }
+
+
+
+
+
+

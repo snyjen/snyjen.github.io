@@ -1,3 +1,4 @@
+@media only screen and (min-width: 65em) {
 nav ul {
     display:flex;
 }
@@ -12,9 +13,12 @@ nav ul li {
 
 nav ul li a {
     border: none;
-    float: right;
 }
 
 nav ul.hide {
     display: flex;
+}
+
+
+
 }
