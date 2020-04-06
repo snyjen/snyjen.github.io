@@ -19,6 +19,15 @@ nav ul.hide {
     display: flex;
 }
 
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.cards section {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
 
 }

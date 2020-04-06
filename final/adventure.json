@@ -1,11 +1,12 @@
 {
     "adventures": [
+
         {
-            "name": "",
+            "name": "Weekends",
             "photo": "",
-            "length": "Weekend",
-            "skill": "Level 1-3",
-            "cost": "$300 per person",
+            "dayLength": "2 days, 1 night",
+            "skillLevel": "Level 1-3",
+            "costTotal": "$100 per person",
             "services": "River Guide, Rafts, Life Vests, and Helmets provided"
             },
 
@@ -13,20 +14,20 @@
                 {
                     "name": "Week",
                     "photo": "",
-                    "length": "",
-                    "skill": "",
-                    "cost": "",
-                    "services": ""
+                    "dayLength": "5 days, 4 nights",
+                    "skillLevel": "Level 1-6",
+                    "costTotal": "$400 per person",
+                    "services": "River Guide, Rafts, Life Vests, and Helmets provided"
                     },
 
                     
                         {
                             "name": "One Day",
                             "photo": "",
-                            "length": "",
-                            "skill": "",
-                            "cost": "",
-                            "services": ""
+                            "dayLength": "1 day",
+                            "skillLevel": "Any",
+                            "costTotal": "$20-$50",
+                            "services": "River Guide, Rafts, Life Vests, and Helmets provided"
                             }
     ]
 }
