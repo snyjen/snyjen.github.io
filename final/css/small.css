@@ -17,6 +17,10 @@ footer {
     padding: 3px;
 }
 
+a {
+    color: #ffffff;
+}
+
 body {
     background-color:#cfd1d0;
  }

@@ -28,11 +28,11 @@ fetch(requestURL2)
 
         certLevel.textContent = guides[i].certLevel;   
         
-        yearExp.textContent = "Length:" + guides[i].yearExp;
+        yearExp.textContent = "Experience:" + guides[i].yearExp;
 
-        email.textContent = "Cost:" + guides[i].email;
+        email.textContent = "Email:" + guides[i].email;
       
-        bio.textContent = "Services:" + guides[i].bio;
+        bio.textContent = "Biography:" + guides[i].bio;
 
       
         let alt = guides[i].photo;
