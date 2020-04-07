@@ -3,7 +3,7 @@
 
         {
             "name": "Weekends",
-            "photo": "",
+            "photo": "kyak.jpg",
             "dayLength": "2 days, 1 night",
             "skillLevel": "Level 1-3",
             "costTotal": "$100 per person",
@@ -13,7 +13,7 @@
             
                 {
                     "name": "Week",
-                    "photo": "",
+                    "photo": "groupraft.jpg",
                     "dayLength": "5 days, 4 nights",
                     "skillLevel": "Level 1-6",
                     "costTotal": "$400 per person",
@@ -23,7 +23,7 @@
                     
                         {
                             "name": "One Day",
-                            "photo": "",
+                            "photo": "tubing.jpg",
                             "dayLength": "1 day",
                             "skillLevel": "Any",
                             "costTotal": "$20-$50",

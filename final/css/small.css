@@ -26,6 +26,7 @@ body {
  }
 
  h2 {
+     font-size: 24pt;
      color: #302626;
  }
 
@@ -120,10 +121,11 @@ nav ul.hide {
     display: grid;
     grid-template-columns: auto;
     grid-gap: 15px;
+    
 }
 
 .cards section {
-    background-color: #c0c7d9;
+    background-color: #ffffff;
     width: 90%;
     margin: auto;
     border-radius: 10px;
@@ -136,20 +138,23 @@ nav ul.hide {
 }
 .cards h3 {
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 24pt;
+    color:  #302626;
 }
 
 .cards h4 {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12pt;
     font-style: italic;
+    color:  #302626;
 }
 
 .cards p {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+  
 }
 
 
