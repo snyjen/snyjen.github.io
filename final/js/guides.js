@@ -7,7 +7,7 @@ fetch(requestURL2)
   .then(function (jsonObject) {
     console.table(jsonObject); 
 
-    const adventures = jsonObject['guides'];
+    const guides = jsonObject['guides'];
 
     for (let i = 0; i < guides.length; i++ ) {
         
