@@ -7,7 +7,7 @@
             "dayLength": "2 days, 1 night",
             "skillLevel": "Level 1-3",
             "costTotal": "$100 per person",
-            "services": "River Guide, Rafts, Life Vests, and Helmets provided"
+            "services": "One of the most populular options offers a two day and one night rafting experience. With rapid adventures for experience levels 1-3. Equipment Provided: River Guide, Rafts, Life Vests, and Helmets."
             },
 
             
@@ -15,9 +15,9 @@
                     "name": "Week",
                     "photo": "groupraft.jpg",
                     "dayLength": "5 days, 4 nights",
-                    "skillLevel": "Level 1-6",
+                    "skillLevel": "Level 4-6",
                     "costTotal": "$400 per person",
-                    "services": "River Guide, Rafts, Life Vests, and Helmets provided"
+                    "services": "This week long trip of 5 days and 4 nights is perfect for those seeking thrills. The rapids are offered for those of experience level 4-6. Equipment Provided: River Guide, Rafts, Life Vests, and Helmets."
                     },
 
                     
@@ -27,7 +27,7 @@
                             "dayLength": "1 day",
                             "skillLevel": "Any Level",
                             "costTotal": "$20-$50",
-                            "services": "River Guide, Rafts, Life Vests, and Helmets provided"
+                            "services": "Have a fun day with tubing and mellow rapids, this is for any level of experience and families with younger children. Equipment Provided: River Guide, Rafts, Life Vests, and Helmets."
                             }
     ]
 }

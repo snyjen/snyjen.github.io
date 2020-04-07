@@ -46,4 +46,9 @@
     .cards section:nth-child(odd) {
         flex-direction: row-reverse;
     }
+
+    .clearfix {
+        overflow: auto;
+    }
+
 }

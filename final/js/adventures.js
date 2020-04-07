@@ -13,6 +13,8 @@ fetch(requestURL)
         
       if (adventures[i].name=="Weekends" || adventures[i].name=="Week" || adventures[i].name=="One Day") {
 
+        
+        
         let card = document.createElement('section');
         let name = document.createElement('h3');
         let skillLevel = document.createElement('h4');
@@ -20,6 +22,7 @@ fetch(requestURL)
         let costTotal = document.createElement('p');
         let services = document.createElement('p');
         let photo = document.createElement('img');
+        
 
         name.textContent = adventures[i].name;
 
