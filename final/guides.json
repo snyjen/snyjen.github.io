@@ -1,0 +1,35 @@
+{
+
+    "guides" : [
+
+        {
+            "name":"Matt Woods",
+            "photo":"mattwoods.jpg",
+            "certLevel":"Level 4",
+            "yearExp":"20 years",
+            "email":"mattwoods@salmonrivers.com",
+            "bio":""
+
+        },
+
+        {
+            "name":"Jake Rivers",
+            "photo":"jakerivers.jpg",
+            "certLevel":"Level 4",
+            "yearExp":"10 years",
+            "email":"jakerivers@salmonrivers.com",
+            "bio":""
+
+        },
+
+        {
+            "name":"Lisa Banks",
+            "photo":"lisabanks.jpg",
+            "certLevel":"Level 3",
+            "yearExp":"5 years",
+            "email":"lisabanks@salmonrivers.com",
+            "bio":""
+
+        }
+    ]
+}
