@@ -126,10 +126,13 @@ nav ul.hide {
     box-shadow: 0 0 30px #777;
 }
 
+/*json cards*/
+
 .cards {
     display: grid;
     grid-template-columns: auto;
     grid-gap: 15px;
+    border-radius: ;
     
 }
 
@@ -137,11 +140,13 @@ nav ul.hide {
     background-color: #ffffff;
     width: 90%;
     margin: auto;
+    border-radius: 10px;
     
 }
 .cards img {
     display: block;
     width: 100%;
+    border-radius: 10px;
     
 }
 
@@ -166,7 +171,7 @@ nav ul.hide {
   
 }
 
-/*contact page*/
+/*forms*/
 
 .map {
     display: flex;
@@ -182,7 +187,7 @@ form fieldset {
 
 form legend {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #302626;
     margin: 0 1rem;
     padding: 0 .5rem;
@@ -233,3 +238,47 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
 }
+
+.required {
+    color:#e10000;
+}
+
+/*table*/
+
+table, th, td {
+    border: 1px solid #b8b9b9;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+table {
+    box-shadow: 5px 5px 10px #999;
+}
+
+th, td {
+    padding: 10px;
+}
+
+thead th {
+    background-color: #074135;
+}
+
+td {
+    color: #302626;
+    background-color: #ffffff;
+}
+
+thead {
+    font-size: 20pt;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+tbody th, td.more {
+    background-color: #11866f;
+    color: #302626;
+}
+
+
+
