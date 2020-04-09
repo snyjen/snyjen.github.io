@@ -523,7 +523,7 @@ form input.submitBtn {
   max-width: 20rem; }
 
 .required {
-  color: #e10000; }
+  color: #a80000; }
 
 /*table*/
 table, th, td {
@@ -553,7 +553,7 @@ thead {
 
 tbody th, td.more {
   background-color: #11866f;
-  color: #302626; }
+  color: #000000; }
 
 @media only screen and (min-width: 45em) {
   h1 {
