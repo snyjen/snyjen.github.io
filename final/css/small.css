@@ -108,6 +108,16 @@ nav ul.hide {
  display: block;
 }
 
+article {
+    background-color: #ffffff;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: left;
+    height: 300px;
+}
+
 .weathersummary {
     display: block;
     width: 200px;
@@ -118,15 +128,9 @@ nav ul.hide {
     padding: .5rem;
     box-shadow: 0 0 30px #777;
     border-radius: 10px;
+    float: right;
 }
 
-.explore {
-    background-color: #ffffff;
-    display: block;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-}
 
 
 
@@ -230,7 +234,7 @@ form label.top input, form label.top select {
     border: solid 1px #999;
     border-radius: 4px;
     padding: .50rem;
-    color: #ffffff;
+    color: #000000;
     width: 90%;
     max-width: 20rem;
     background-color: #ffffff;

@@ -30,4 +30,8 @@ nav ul.hide {
     justify-items: center;
 }
 
+article {
+    width: 100%;
+}
+
 }
